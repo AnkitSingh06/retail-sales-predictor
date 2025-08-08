@@ -46,7 +46,7 @@ The model was evaluated using the following metrics on a hold-out test set:
 
 Below is a preview of the deployed Streamlit web app:
 
-![App Screenshot](retail_sales_app.png)  
+![App Screenshot](retail_sales_prediction.png)  
 *(Replace this with your actual app screenshot)*
 
 ---
