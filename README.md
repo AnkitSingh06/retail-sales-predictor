@@ -85,13 +85,15 @@ A clean, user-friendly interface for entering store-level parameters and getting
 
 ---
 
-## 💼 Business Impact (Hypothetical Scenario)
+## 🎯 Business Impact
 
-If deployed across a 500-store network:
-- Forecast error (MAE) reduction: ~\$8.7K/store/month  
-  → **Potential annual savings: $5M+**
-- Streamlined campaign planning: Better ROI per dollar spent on marketing
-- Location benchmarking: Easily identify underperforming stores
+The application enables:
+
+- 💼 **Store managers** to proactively plan inventory and promotions
+- 📦 **Supply chain teams** to adjust distribution
+- 📈 **Executives** to simulate sales impact by tweaking store parameters
+
+> ⚠️ With improved forecasting accuracy, even a **5% improvement** in inventory planning could lead to **significant cost savings** across multiple stores.
 
 ---
 
