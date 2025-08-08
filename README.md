@@ -36,7 +36,7 @@ The model was evaluated using the following metrics on a hold-out test set:
 
 ### 📈 Predicted vs Actual Plot
 
-![Predicted vs Actual](Predicted vs Actual.png)
+![Predicted vs Actual](Predicted_vs_Actual.png)
 
 *This plot shows how well the model predictions align with actual sales values.*
 
