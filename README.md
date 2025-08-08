@@ -7,7 +7,6 @@ A Streamlit-powered web app that predicts retail sales using a trained machine l
 ## 📺 Demo
 
 👉 [Live App on Streamlit](https://retail-sales-predictor-akfxck5hpg4wdpn3shexnn.streamlit.app/#retail-sales-prediction-app)  
-*(Replace with your actual Streamlit app URL)*
 
 ---
 
@@ -46,8 +45,7 @@ The model was evaluated using the following metrics on a hold-out test set:
 
 Below is a preview of the deployed Streamlit web app:
 
-![App Screenshot](retail_sales_prediction.png)  
-*(Replace this with your actual app screenshot)*
+![App Screenshot](retail_sales_prediction.png)
 
 ---
 
