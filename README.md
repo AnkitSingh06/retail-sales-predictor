@@ -15,12 +15,10 @@ A Streamlit-powered web app that predicts retail sales using a trained machine l
 - **Type**: Linear Regression
 - **Target Variable**: `Store_Sales`
 - **Input Features**:
-  - `Store_Area`
-  - `Items_Available`
-  - `Daily_Customer_Count`
-  - `Store_Location_Type`
-  - `Holiday_Flag`, etc.
-
+  - `Store_Size`
+  - `Location_Rating`
+  - `Marketing_Spend`
+  - `Monthly_Sales`
 ---
 
 ## 📈 Evaluation Metrics
