@@ -28,18 +28,38 @@ dt_model = DecisionTreeRegressor(random_state=42)
 dt_model.fit(X_train, y_train)
 y_pred_dt = dt_model.predict(X_test)
 
-# Evaluation
-print("Linear Regression RMSE:", np.sqrt(mean_squared_error(y_test, y_pred_lr)))
-print("Decision Tree RMSE:", np.sqrt(mean_squared_error(y_test, y_pred_dt)))
+# Evaluation for Linear Regression
+print("\n🔹 Linear Regression Metrics:")
+print("MAE:", mean_absolute_error(y_test, y_pred_lr))
+print("RMSE:", np.sqrt(mean_squared_error(y_test, y_pred_lr)))
+print("R² Score:", r2_score(y_test, y_pred_lr))
 
+# Evaluation for Decision Tree
+print("\n🔹 Decision Tree Metrics:")
+print("MAE:", mean_absolute_error(y_test, y_pred_dt))
+print("RMSE:", np.sqrt(mean_squared_error(y_test, y_pred_dt)))
+print("R² Score:", r2_score(y_test, y_pred_dt))
 import matplotlib.pyplot as plt
 
-# Plot actual vs predicted for Linear Regression
-plt.figure(figsize=(8,6))
-plt.scatter(y_test, y_pred_lr, alpha=0.5)
+plt.figure(figsize=(12, 5))
+
+plt.subplot(1, 2, 1)
+sns.scatterplot(x=y_test, y=y_pred_lr)
+plt.title("Linear Regression")
 plt.xlabel("Actual Sales")
 plt.ylabel("Predicted Sales")
-plt.title("Actual vs Predicted Sales (Linear Regression)")
 plt.grid(True)
+
+plt.subplot(1, 2, 2)
+sns.scatterplot(x=y_test, y=y_pred_dt, color='orange')
+plt.title("Decision Tree")
+plt.xlabel("Actual Sales")
+plt.ylabel("Predicted Sales")
+plt.grid(True)
+
+plt.tight_layout()
 plt.show()
+
+
+
 
