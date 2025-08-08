@@ -23,15 +23,13 @@ A Streamlit-powered web app that predicts retail sales using a trained machine l
 
 ---
 
-## 📊 Model Evaluation
+## 📈 Evaluation Metrics
 
-The model was evaluated using the following metrics on a hold-out test set:
-
-| Metric              | Value        |
-|---------------------|--------------|
-| R² Score            | 0.85         |
-| Mean Absolute Error | 1265.32      |
-| RMSE                | 1624.87      |
+| Metric        | Linear Regression | Decision Tree |
+|---------------|-------------------|----------------|
+| MAE           | 8762.76           | 11732.30       |
+| RMSE          | 10646.98          | 15046.47       |
+| R² Score      | 0.15              | -0.70          |
 
 ### 📈 Predicted vs Actual Plot
 
