@@ -47,7 +47,7 @@ The dataset includes:
 - Shows the spread of monthly sales values.
 
 ### 2️⃣ Store Size vs Sales
-![Store Size vs Sales](eda_store_size_vs_sales.png)  
+![Store Size vs Sales](EDA_2.png)  
 - Larger stores generally have higher sales.
 
 ### 3️⃣ Marketing Spend Impact
