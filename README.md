@@ -57,7 +57,7 @@ _(Insert visualizations here to highlight actionable insights)_
   ![Sales Distribution](EDA_1.png)
 
 - **Store Size vs Sales**  
-  ![Store Size vs Sales](eda_store_size_vs_sales.png)
+  ![Store Size vs Sales](EDA_2.png)
 
 - **Marketing Spend vs Sales**  
   ![Marketing Spend vs Sales](eda_marketing_spend_vs_sales.png)
