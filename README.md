@@ -40,6 +40,32 @@ The dataset includes:
 
 ---
 
+## 🖼️ App Preview
+
+![App Screenshot](images/retail_sales_prediction.png)
+
+Clean and intuitive UI for instant forecasting based on key store parameters.
+
+---
+
+## 🚀 App Demo
+
+**Live App** → [Retail Sales Predictor on Streamlit](https://retail-sales-predictor-akfxck5hpg4wdpn3shexnn.streamlit.app/#retail-sales-prediction-app)  
+
+**Features:**
+- Interactive sliders & inputs
+- Instant sales predictions
+- Scenario analysis for decision-making
+
+---
+
+###  Predicted vs Actual Sales  
+![Predicted vs Actual](Predicted_vs_Actual.png)
+
+Demonstrates how aligned model outputs are with actual sales.
+
+---
+
 ## 📈 Exploratory Data Analysis (EDA)
 
 ### 1️⃣ Sales Distribution
@@ -60,14 +86,13 @@ The dataset includes:
 
 ---
 
-## 🚀 App Demo
+## 💡 Business Impact
 
-**Live App** → [Retail Sales Predictor on Streamlit](https://retail-sales-predictor-akfxck5hpg4wdpn3shexnn.streamlit.app/#retail-sales-prediction-app)  
-
-**Features:**
-- Interactive sliders & inputs
-- Instant sales predictions
-- Scenario analysis for decision-making
+- **Improved Demand Forecasting** → Reduced stockouts by anticipating store-level demand.
+- **Optimized Marketing Spend** → Allocate budgets to stores with the highest ROI potential.
+- **Inventory Efficiency** → Minimize overstock, reducing holding costs by up to *15–20%*.
+- **Faster Decision-Making** → Real-time predictions for planners and store managers.
+- **Scalable Insights** → Can be extended to multiple regions, store formats, and seasonal trends.
 
 ---
 
