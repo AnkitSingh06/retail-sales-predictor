@@ -55,7 +55,7 @@ The dataset includes:
 - Positive correlation between marketing investment and store performance.
 
 ### 4️⃣ Location Rating Correlation
-![Location vs Sales](eda_location_vs_sales.png)  
+![Location vs Sales](EDA_4.png)  
 - Premium locations outperform low-rated areas.
 
 ---
