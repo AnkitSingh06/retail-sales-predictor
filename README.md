@@ -54,7 +54,7 @@ Develop an **interpretable**, **deployable** machine learning solution that:
 _(Insert visualizations here to highlight actionable insights)_
 
 - **Sales Distribution**  
-  ![Sales Distribution](eda_sales_distribution.png)
+  ![Sales Distribution](C:\Users\Ankit Kumar Singh\OneDrive\Pictures\Screenshots\EDA_1.png)
 
 - **Store Size vs Sales**  
   ![Store Size vs Sales](eda_store_size_vs_sales.png)
