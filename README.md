@@ -63,7 +63,7 @@ _(Insert visualizations here to highlight actionable insights)_
   ![Marketing Spend vs Sales](EDA_3.png)
 
 - **Correlation Heatmap of Features**  
-  ![Correlation Heatmap](eda_correlation_heatmap.png)
+  ![Correlation Heatmap](EDA_4.png)
 
 ---
 
