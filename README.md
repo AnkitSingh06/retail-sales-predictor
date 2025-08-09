@@ -42,7 +42,7 @@ The dataset includes:
 
 ## 🖼️ App Preview
 
-![App Screenshot](images/retail_sales_prediction.png)
+![App Screenshot](retail_sales_prediction.png)
 
 Clean and intuitive UI for instant forecasting based on key store parameters.
 
