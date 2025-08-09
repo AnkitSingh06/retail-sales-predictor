@@ -60,7 +60,7 @@ _(Insert visualizations here to highlight actionable insights)_
   ![Store Size vs Sales](EDA_2.png)
 
 - **Marketing Spend vs Sales**  
-  ![Marketing Spend vs Sales](eda_marketing_spend_vs_sales.png)
+  ![Marketing Spend vs Sales](EDA_3.png)
 
 - **Correlation Heatmap of Features**  
   ![Correlation Heatmap](eda_correlation_heatmap.png)
