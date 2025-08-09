@@ -51,7 +51,7 @@ The dataset includes:
 - Larger stores generally have higher sales.
 
 ### 3️⃣ Marketing Spend Impact
-![Marketing Spend vs Sales](eda_marketing_vs_sales.png)  
+![Marketing Spend vs Sales](EDA_3.png)  
 - Positive correlation between marketing investment and store performance.
 
 ### 4️⃣ Location Rating Correlation
