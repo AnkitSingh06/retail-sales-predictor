@@ -1,117 +1,119 @@
-# 🛍️ Retail Sales Predictor – Business-Driven Sales Forecasting App
+# ​​ Retail Sales Predictor – Business-Driven Sales Forecasting App
 
 A **Streamlit-powered web application** designed for **retail managers, business analysts, and category heads** to forecast store-level sales using key business drivers such as store size, marketing spend, and location rating.
 
-This tool enables faster decision-making in:
+This tool enables faster, more informed decision-making in:
 - Inventory planning  
 - Campaign performance estimation  
 - Regional sales performance benchmarking  
 
 ---
 
-## 🧩 Business Context
+## ​ Business Context
 
-Retail organizations often struggle with:
-- Misaligned sales projections leading to over/understocking
-- Non-quantified impact of marketing investments
-- Poor visibility into store performance due to varying regional factors
+Retail organizations often face challenges like:
+- Misaligned sales projections causing overstocking or stockouts  
+- Unmeasured ROI on marketing investments  
+- Limited visibility into store-level performance due to regional variances  
 
-**Solution**: A predictive model that forecasts monthly sales using core business variables, wrapped into an easy-to-use web interface.
-
----
-
-## 🎯 Project Objective
-
-Develop an interpretable and deployable machine learning solution that:
-- Predicts store-level retail sales
-- Helps regional managers forecast sales based on inputs they control
-- Is accessible via a user-friendly web app (Streamlit)
+**Solution**: A predictive model wrapped in an intuitive web interface to forecast monthly sales using core business-driven variables.
 
 ---
 
-## 🚀 Live Demo
+## ​ Project Objective
+
+Develop an **interpretable**, **deployable** machine learning solution that:
+- Forecasts store-level retail sales  
+- Empowers regional managers with input-based forecasting  
+- Is accessible through a user-friendly Streamlit web app  
+
+---
+
+## ​ Live Demo
 
 👉 [Try the Live App](https://retail-sales-predictor-akfxck5hpg4wdpn3shexnn.streamlit.app/#retail-sales-prediction-app)
 
 ---
 
-## 🧠 Model Overview
+## ​ Model Overview
 
-- **Algorithm**: Linear Regression (interpretable, fast)
-- **Target Variable**: `Store_Sales`
-- **Business Input Features**:
-  - `Store_Size` (sq. ft.)
-  - `Location_Rating` (footfall potential / catchment quality)
-  - `Marketing_Spend` (monthly advertising budget)
-  - `Monthly_Sales` (previous month's sales)
+- **Algorithm**: Linear Regression (fast and interpretable)  
+- **Target Variable**: `Store_Sales`  
+- **Input Features**:
+  - `Store_Size` (sq. ft.)  
+  - `Location_Rating` (footfall potential / catchment quality)  
+  - `Marketing_Spend` (monthly advertising budget)  
+  - `Monthly_Sales` (previous month’s sales)  
 
-> A **Decision Tree Regressor** was also evaluated to benchmark performance.
+> A Decision Tree Regressor was also evaluated as a benchmark.
 
 ---
 
-## 📈 Model Performance
+## ​ Exploratory Data Analysis (EDA) Charts
+
+_(Insert visualizations here to highlight actionable insights)_
+
+- **Sales Distribution**  
+  ![Sales Distribution](eda_sales_distribution.png)
+
+- **Store Size vs Sales**  
+  ![Store Size vs Sales](eda_store_size_vs_sales.png)
+
+- **Marketing Spend vs Sales**  
+  ![Marketing Spend vs Sales](eda_marketing_spend_vs_sales.png)
+
+- **Correlation Heatmap of Features**  
+  ![Correlation Heatmap](eda_correlation_heatmap.png)
+
+---
+
+## ​ Model Performance
 
 | Metric        | Linear Regression | Decision Tree |
 |---------------|-------------------|----------------|
-| MAE           | 8,762.76          | 11,732.30       |
-| RMSE          | 10,646.98         | 15,046.47       |
+| MAE           | 8,762.76          | 11,732.30      |
+| RMSE          | 10,646.98         | 15,046.47      |
 | R² Score      | 0.15              | -0.70          |
 
-📌 **Linear Regression** was selected due to better generalization and interpretability.
+**Insight**: Linear Regression was chosen for its predictive stability and interpretability.
 
 ---
 
-## 📊 Insights
+## ​ Insights Summary
 
-- **Marketing Spend** is a strong driver of sales uplift, but shows diminishing returns.
-- **Store Size** positively correlates with sales, up to an optimal range.
-- **Location Rating** captures regional disparities in footfall and purchasing behavior.
+- **Marketing Spend**: Shows a strong positive correlation with sales, though diminishing returns appear beyond a threshold.  
+- **Store Size**: Generally scales with higher sales, up to an optimal point.  
+- **Location Rating**: Reflects regional variances in foot traffic and purchasing behavior.  
 
 ---
 
-## 📸 Visuals
+## ​ Visuals
 
-### 📈 Predicted vs Actual Sales
-
+###  Predicted vs Actual Sales  
 ![Predicted vs Actual](Predicted_vs_Actual.png)
 
-Shows alignment of model predictions with real sales values.
+Demonstrates how aligned model outputs are with actual sales.
 
-### 🖥️ App Interface
-
+###  App Interface  
 ![App Screenshot](retail_sales_prediction.png)
 
-A clean, user-friendly interface for entering store-level parameters and getting instant sales forecasts.
+Clean and intuitive UI for instant forecasting based on key store parameters.
 
 ---
 
-## 🎯 Business Impact
+## ​ Business Impact (Hypothetical Scenario)
 
-The application enables:
-
-- 💼 **Store managers** to proactively plan inventory and promotions
-- 📦 **Supply chain teams** to adjust distribution
-- 📈 **Executives** to simulate sales impact by tweaking store parameters
-
-> ⚠️ With improved forecasting accuracy, even a **5% improvement** in inventory planning could lead to **significant cost savings** across multiple stores.
+Scale to a 500-store network:
+- Reduce monthly forecast error (MAE) by ~$8.7K/store → **Potential annual savings: $5M+**
+- Improve ROI on marketing campaigns by forecasting their impact  
+- Identify underperforming stores for corrective action
 
 ---
 
-## 🛠️ How to Run Locally
+## ​​ How to Run Locally
 
 ```bash
 git clone https://github.com/AnkitSingh06/retail-sales-predictor.git
 cd retail-sales-predictor
 pip install -r requirements.txt
 streamlit run app.py
-```
-
----
-
-## 🧰 Tech Stack
-
-- Python
-- Streamlit
-- Scikit-learn
-- Pandas / Numpy
-- Matplotlib / Seaborn
