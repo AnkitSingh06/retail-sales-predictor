@@ -43,7 +43,7 @@ The dataset includes:
 ## 📈 Exploratory Data Analysis (EDA)
 
 ### 1️⃣ Sales Distribution
-![Sales Distribution](eda_sales_distribution.png)  
+![Sales Distribution](EDA_1.png)  
 - Shows the spread of monthly sales values.
 
 ### 2️⃣ Store Size vs Sales
